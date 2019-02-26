@@ -5,7 +5,7 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   const nestedEl = getFirstSelector('#nested'),
     el = nestedEl.getFirstSelector('.target');
-  return selectors;
+  return el;
 }
 
 function increaseRankBy(n) {
