@@ -16,5 +16,10 @@ function increaseRankBy(n) {
 }
 
 function deepesChild() {
-  const el = getFirstSelector('div#grand-node');
+  const el = getFirstSelector('div#grand-node'),
+  deepChild = (element)=>{
+    element.childe
+  };
+  
+  return deepChild(el)
 }
