@@ -21,7 +21,7 @@ function deepesChild() {
     if(!element.hasChildNodes()){
       return element;
     }else {
-      deepChild(element.childnodes)
+      return deepChild(element.children[0]);
     }
   };
   
