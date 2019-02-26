@@ -9,3 +9,7 @@ function nestedTarget() {
 function increaseRankBy(n) {
   
 }
+
+function deepesChild() {
+  const els = document.querySelectorAll('div#grand-node');
+}
