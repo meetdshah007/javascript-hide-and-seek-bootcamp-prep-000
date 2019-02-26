@@ -20,9 +20,8 @@ function deepesChild() {
   deepChild = (element)=>{
     if(!element.hasChildNodes()){
       return element;
-    }else {
-      return deepChild(element.children[0]);
     }
+    return deepChild(element.children[0]);
   };
   
   return deepChild(el)
